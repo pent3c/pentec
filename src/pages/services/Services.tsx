@@ -1,5 +1,9 @@
+import React from 'react'
+
 function Services() {
-  return <>Services</>;
+  return (
+    <div>Services</div>
+  )
 }
 
-export default Services;
+export default Services
