@@ -1,5 +1,5 @@
 import styles from '../../styles'
-import { NavBar, Hero, Business } from '../../components'
+import { NavBar, Hero,Founders, Business } from '../../components'
 
 function Home() {
   return (
@@ -12,13 +12,21 @@ function Home() {
       </div>
 
       {/* Hero section */}
-      <div className={` ${styles.flexStart}`}>
+      <div className={` ${styles.flexStart} ${styles.paddingY}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+       {/* Founders section */}
+       <div className={` ${styles.flexStart} ${styles.paddingY}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Founders />
+        </div>
+       </div>
+
+      {/* Feature section */}
+      <div className={`bg-primary ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Business />
         </div>
