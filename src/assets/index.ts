@@ -11,8 +11,18 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import team from "./team.png"
+import Abdelkrim from './Abdelkrim.png'
+import Yacine from './Yacine.png'
+import Haithem from './Haithem.png'
+import Amine from './Amine.png'
+import Abdallah from './Abdallah.png'
 
 export {
+  Abdelkrim,
+  Yacine,
+  Haithem,
+  Amine,
+  Abdallah,
   logo,
   robot,
   send,

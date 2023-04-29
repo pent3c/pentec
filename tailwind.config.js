@@ -14,7 +14,7 @@ export default {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
     screens: {

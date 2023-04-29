@@ -9,7 +9,6 @@ function Business() {
 
   const { ref, inView } = useInView();
 
-
   return (
     <section id="features" className={layout.section}>
         <div ref={ref}>
@@ -49,7 +48,7 @@ function Business() {
                     animate= {inView ? { x: 0, opacity: 1, scale: 1 } : { x: "50vw", opacity: 0, scale: 0.2 }}
                     transition= {{
                       duration: 1,
-                      delay: index-0.5,
+                      delay: index/2,
                       ease: [0, 0.71, 0.2, 1.01]
                     }}
                   >
